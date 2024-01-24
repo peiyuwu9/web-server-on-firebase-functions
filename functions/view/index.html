@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        font-family: monospace;
+        row-gap: 10px;
+        max-width: 400px;
+        margin: 20px auto;
+      }
+      .grid-item-header-1 {
+        grid-column: 1;
+      }
+      .grid-item-header-2 {
+        grid-column: 2;
+      }
+      .grid-item-header-3 {
+        grid-column: 3;
+      }
+      .grid-item-title {
+        grid-column: 1/4;
+      }
+      .grid-item-data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item-header-1">1 Day</div>
+      <div class="grid-item-header-2">5 Day</div>
+      <div class="grid-item-header-3">10 Day</div>
+      <div class="grid-item-title">Buy</div>
+        <div class="grid-item-data">
+        <span>2356英業達</span><span>2303聯電</span><span>0056元大高股息</span><span>1514亞力</span><span>3231緯創</span><span>2352佳世達</span><span>2382廣達</span><span>3017奇鋐</span><span>2449京元電子</span><span>3706神達</span>
+        </div>
+        <div class="grid-item-data">
+        <span>3481群創</span><span>3231緯創</span><span>2356英業達</span><span>3702大聯大</span><span>3706神達</span>
+        </div>
+        <div class="grid-item-data">
+        <span>3231緯創</span><span>3481群創</span><span>2382廣達</span><span>3702大聯大</span>
+        </div>
+      <div class="grid-item-title">Sell</div>
+        <div class="grid-item-data">
+        <span>2618長榮航</span><span>2317鴻海</span><span>2884玉山金</span><span>2408南亞科</span>
+        </div>
+        <div class="grid-item-data">
+        <span>2344華邦電</span><span>2618長榮航</span>
+        </div>
+        <div class="grid-item-data">
+        <span>2618長榮航</span><span>2609陽明</span>
+        </div>
+  </body>
+</html>
