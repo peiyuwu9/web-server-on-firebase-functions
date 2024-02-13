@@ -3,7 +3,7 @@
 ## Motivation
 Test deploying a web server via Firebase Functions.
 
-## Technologies Used and Why
+## Technologies used and why
 **Fastify.js** is an web server framework.
 
 ## Deploy
