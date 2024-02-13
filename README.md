@@ -7,6 +7,6 @@ Test deploying a web server via Firebase Functions.
 **Fastify.js** is an web server framework.
 
 ## How to Use
-- Deploy to **Firebase Functions**
-- Go to functions folder
-- Run ```npm run deploy```
+1. Deploy to **Firebase Functions**
+2. Go to functions folder
+3. Run ```npm run deploy```
